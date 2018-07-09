@@ -17,7 +17,7 @@ directories:
  quant_dir: 'quant'
  sourmash_dir: 'sourmash'
 
-diffexp:
+deseq2:
   # contrasts for the deseq2 results method
   contrasts:
     hour0-vs-hour6:
