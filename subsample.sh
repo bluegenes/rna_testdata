@@ -1,20 +1,20 @@
-head -5000 0Hour_ATCACG_L002_R1_001.fastq | gzip -9 > 0Hour_ATCACG_L002_R1_001.fastq.gz
-head -5000 0Hour_ATCACG_L002_R1_002.fastq | gzip -9 > 0Hour_ATCACG_L002_R1_002.fastq.gz
-head -5000 0Hour_ATCACG_L002_R1_003.fastq | gzip -9 > 0Hour_ATCACG_L002_R1_003.fastq.gz
-head -5000 0Hour_ATCACG_L002_R1_004.fastq | gzip -9 > 0Hour_ATCACG_L002_R1_004.fastq.gz
-head -5000 0Hour_ATCACG_L002_R1_005.fastq | gzip -9 > 0Hour_ATCACG_L002_R1_005.fastq.gz
-head -5000 0Hour_ATCACG_L002_R2_001.fastq | gzip -9 > 0Hour_ATCACG_L002_R2_001.fastq.gz
-head -5000 0Hour_ATCACG_L002_R2_002.fastq | gzip -9 > 0Hour_ATCACG_L002_R2_002.fastq.gz
-head -5000 0Hour_ATCACG_L002_R2_003.fastq | gzip -9 > 0Hour_ATCACG_L002_R2_003.fastq.gz
-head -5000 0Hour_ATCACG_L002_R2_004.fastq | gzip -9 > 0Hour_ATCACG_L002_R2_004.fastq.gz
-head -5000 0Hour_ATCACG_L002_R2_005.fastq | gzip -9 > 0Hour_ATCACG_L002_R2_005.fastq.gz 
-head -5000 6Hour_CGATGT_L002_R1_001.fastq | gzip -9 > 6Hour_CGATGT_L002_R1_001.fastq.gz
-head -5000 6Hour_CGATGT_L002_R1_002.fastq | gzip -9 > 6Hour_CGATGT_L002_R1_002.fastq.gz
-head -5000 6Hour_CGATGT_L002_R1_003.fastq | gzip -9 > 6Hour_CGATGT_L002_R1_003.fastq.gz
-head -5000 6Hour_CGATGT_L002_R1_004.fastq | gzip -9 > 6Hour_CGATGT_L002_R1_004.fastq.gz
-head -5000 6Hour_CGATGT_L002_R1_005.fastq | gzip -9 > 6Hour_CGATGT_L002_R1_005.fastq.gz
-head -5000 6Hour_CGATGT_L002_R2_001.fastq | gzip -9 > 6Hour_CGATGT_L002_R2_001.fastq.gz
-head -5000 6Hour_CGATGT_L002_R2_002.fastq | gzip -9 > 6Hour_CGATGT_L002_R2_002.fastq.gz
-head -5000 6Hour_CGATGT_L002_R2_003.fastq | gzip -9 > 6Hour_CGATGT_L002_R2_003.fastq.gz
-head -5000 6Hour_CGATGT_L002_R2_004.fastq | gzip -9 > 6Hour_CGATGT_L002_R2_004.fastq.gz
-head -5000 6Hour_CGATGT_L002_R2_005.fastq | gzip -9 > 6Hour_CGATGT_L002_R2_005.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R1_001.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R1_001.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R1_002.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R1_002.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R1_003.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R1_003.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R1_004.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R1_004.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R1_005.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R1_005.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R2_001.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R2_001.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R2_002.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R2_002.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R2_003.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R2_003.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R2_004.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R2_004.fastq.gz
+gunzip -c orig/0Hour_ATCACG_L002_R2_005.fastq.gz | head -10000 | gzip -9 > 0Hour_ATCACG_L002_R2_005.fastq.gz 
+gunzip -c orig/6Hour_CGATGT_L002_R1_001.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R1_001.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R1_002.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R1_002.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R1_003.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R1_003.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R1_004.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R1_004.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R1_005.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R1_005.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R2_001.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R2_001.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R2_002.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R2_002.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R2_003.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R2_003.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R2_004.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R2_004.fastq.gz
+gunzip -c orig/6Hour_CGATGT_L002_R2_005.fastq.gz | head -10000 | gzip -9 > 6Hour_CGATGT_L002_R2_005.fastq.gz
