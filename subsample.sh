@@ -6,7 +6,7 @@ unzip nema_subset_6Hour.zip
 mkdir -p orig
 mv *gz ./orig
 
-lines=10000
+lines=5000
 
 gunzip -c orig/0Hour_ATCACG_L002_R1_001.fastq.gz | head -$lines | gzip -9 > 0Hour_ATCACG_L002_R1_001.fastq.gz
 gunzip -c orig/0Hour_ATCACG_L002_R1_002.fastq.gz | head -$lines | gzip -9 > 0Hour_ATCACG_L002_R1_002.fastq.gz
